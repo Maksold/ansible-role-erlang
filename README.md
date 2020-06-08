@@ -20,7 +20,7 @@ Role Variables
 Defaults variables are inside `defaults/main.yml`
 ```yaml
 ---
-erlang_series: 20
+erlang_series: 23
 
 erlang_rpm_repo_url: https://dl.bintray.com/rabbitmq-erlang/rpm/erlang
 erlang_rpm_gpg_url: https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc
@@ -38,7 +38,7 @@ erlang_series_deb_version:
 
 - `erlang_series`
 
-  - should be an integer (16,19,20,21 available at 01.16.2019)
+  - should be an integer (16,19,20,21,22,23 available at 08.06.2020)
 
 - `erlang_rpm_repo_url`
 
